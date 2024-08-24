@@ -1,0 +1,95 @@
+#main{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(38, 91%, 58%);
+    padding: 0 40px;
+}
+header  h1{
+    font-weight: 400;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+}
+#nav h2{
+    margin: 0 20px;
+    font-weight: 100;
+}
+
+#box{
+    margin: 40px 30px;
+}
+#description{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin: 40px;
+    color: rgba(255, 255, 255, 0.91);
+}
+.description2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.description2 img{
+    height: 100%;
+}
+#description h1{
+    font-size: 40px;
+}
+#description p{
+    font-size: 20px;
+}
+button{
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(38, 91%, 58%);
+}
+#name , #mail{
+    display: block;
+    width: 90%;
+   
+}
+.formBox h1{
+    color: hsl(38, 91%, 58%);
+}
+.formBox input{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: solid 3px hsl(38, 91%, 58%);
+    border-radius: 50px;
+    margin: 20px 0;
+    background-color: black;
+}
+.formBox button{
+    padding: 12px 28px;
+    margin: 25px 41%;
+}
+table{
+    width: 95%;
+    font-size: 20px;
+    margin: 35px;
+    border: 3px solid hsl(38, 91%, 58%);
+    font-weight: 300;
+    color: hsl(38, 91%, 58%);
+    border-collapse: collapse;
+}
+td{
+    padding: 20px;
+    border: 3px solid hsl(38, 91%, 58%);
+    border-bottom-style: hidden;
+}
+tfoot{
+    background-color: hsl(38, 91%, 58%);
+    color: black;
+}
